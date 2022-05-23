@@ -296,7 +296,7 @@ body.touch .menu__list-item.active>.arrow {
 /* ================================================================ */
 .information__container {
   display: flex;
-  padding: 210px 0 158px;
+  padding: 210px 15px 158px;
 }
 .information__content {
   flex: 1 1 50%;
@@ -304,18 +304,13 @@ body.touch .menu__list-item.active>.arrow {
   padding-left: 20px;
 }
 @media (max-width: 919.99px) {
-  .information {
-    padding: 140px 0 80px;
-  }
-
   .information__container {
     flex-direction: column;
+    padding: 140px 15px 80px;
   }
-
   .information__content {
     margin-bottom: 25px;
   }
-
 }
 .information__title {
   font-weight: 700;
@@ -349,7 +344,7 @@ body.touch .menu__list-item.active>.arrow {
   display: flex;
   gap: 80px;
   align-items: center;
-  padding: 58px 0 63px;
+  padding: 58px 15px 63px;
 }
 .welcome__image {
   flex: 1 1 50%;
@@ -365,7 +360,6 @@ body.touch .menu__list-item.active>.arrow {
     flex-direction: column-reverse;
     gap: 0;
   }
-
   .welcome__content {
     margin-bottom: 40px;
   }
@@ -382,7 +376,7 @@ body.touch .menu__list-item.active>.arrow {
 }
 /* ================================================================ */
 .products__container {
-  padding: 96px 32px 45px;
+  padding: 96px 15px 45px;
 }
 .products__title {
   text-align: center;
@@ -393,8 +387,8 @@ body.touch .menu__list-item.active>.arrow {
   gap: 9px;
 }
 @media (max-width: 767.99px) {
-  .products {
-    padding: 48px 16px 24px;
+  .products__container {
+    padding: 48px 15px 24px;
   }
 
   .products__items {
@@ -441,7 +435,7 @@ body.touch .menu__list-item.active>.arrow {
 .contants__container {
   display: flex;
   gap: 47px;
-  padding: 70px 0 24px;
+  padding: 70px 15px 24px;
 }
 .block-address {
   flex: 0 0 317px;
@@ -466,17 +460,14 @@ body.touch .menu__list-item.active>.arrow {
     flex-direction: column;
     align-items: center;
     gap: 23px;
-    padding: 35px 0 24px;
+    padding: 35px 15px 24px;
   }
-
   .block-address {
     flex: 1 1 auto;
   }
-
   .block-contact {
     align-self: center;
   }
-
 }
 .block-contact__title {
   font-weight: 500;
